@@ -1,0 +1,15 @@
+
+<suite name="Suite">
+  <test name="Test1">
+  <parameter name="city" value="patna"></parameter>
+    <classes>
+      <class name="Parameter.DemoA"/>
+    </classes>
+  </test> <!-- Test -->
+   <test name="Test2">
+  <parameter name="city" value="delhi"></parameter>
+    <classes>
+      <class name="Parameter.DemoA"/>
+    </classes>
+  </test>
+</suite> <!-- Suite -->
